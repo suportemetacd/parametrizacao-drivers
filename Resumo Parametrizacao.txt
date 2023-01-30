@@ -1,0 +1,46 @@
+Sistema Operacional Win 10 ou 11 PRO e Java32 e MBR na formatação
+
+TEAM VIEWER -> Grupo e Política
+
+Winkey + Pause Break -> Config Avanç do sist -> Na aba remoto desativar a 1ª opção -> 
+hostname: Manter
+grupo de trabalho: MET
+descrição do computador: Meta
+
+Netplwiz - Adicionar  - Entrar sem uma conta da Microsoft - Conta Local -> Suporte, @METAcert123!, dica de senha (Syspass) -> Mudar a Associação de grupo para ADMIN
+
+Criar usuário AGR e deixar todos os outros, exceto o Suporte como padrão
+
+Drivers
+OCS: desabilitar "Validate" -> Primeiro/Ultimo -> bach
+
+Executar como Admin o BAT do Visual Studio C++
+
+Incluir as cadeias
+
+No gpedit.msc:
+C.Comput -> C.Wind -> C.Seg -> P.Loc -> Opções de Seg. -> Contas: bloquear contas Microsoft -> última opção
+C.Comput -> C.Wind -> C.Seg -> P.Loc -> Opções de Seg. -> Contas: status de conta de admin. e de convid. (desativar)
+C.Comput -> C.Wind -> C.Seg -> P.Loc -> Opções de Seg. -> Logon inter.: Limite B. C. de comp. (3 tentativas)
+                                                                            (120 segundos)
+                                                                            Habilitar
+                                                                            Habilitar
+                                                                            Desabilitar
+C.Comput -> C.Wind -> C.Seg -> P.Loc -> P.Auditoria: Marcart exito e falha 
+C.Comput -> C.Wind -> C.Seg -> P.Conta -> P.Senha: Hab/5/Desab/30/8
+C.Comput -> C.Wind -> C.Seg -> P.Conta -> P.Bloq.Conta: 3 tentativas/ 30 min
+C.Comput -> M.Adm -> Comp.Windows -> S.Log.Eventos -> Segurança: (KB e Backup) Habilitar
+C.Comput -> M.Adm -> Comp.Windows -> OOBE -> Não iniciar... (habilitar)
+C.Comput -> M.Adm -> Comp.Windows -> Windows Update -> Habilitando o gerenciamento (habilitado)
+                                                       Config atualização aut. (Hab, opção 3, instalar durante..                                                                       (marcar, 0- todo dia, 17h), a cada semana,                                                                        instalar atual.)
+                                                       Remover acesso ao recurso e não há.. (habilitar)
+
+P.Controle -> Data e Hora -> Horário da Internet -> Atualizar a.st1.ntp.br
+
+Instalar o Spid e Device no usuário do AGR
+
+** Importar favoritos Google e Firefox (Só no Google por enquanto e com o arquivo que temos, até ajustar a nova AC)
+** Configurar o Firefox para abrir com a página acfaz.acdigital.com.br (AINDA NÃO)
+Importar as DLL's no Firefox
+
+Particionar completo e criptografar ( meu computador, botão direito do disco C, gerenciar bitlocker , ligar bitlocker, @meta123! )
